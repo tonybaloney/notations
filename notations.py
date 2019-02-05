@@ -33,7 +33,7 @@ def notation(func):
         if i.opname == POP_BLOCK:
             offset = loop_stacks.pop()
             if offset != i.offset:  # Check the popped value is the offset of the pop_block
-                raise ValueError
+                raise ValueError("Not implemented, maybe. Or maybe this is a bug ¯\_(ツ)_/¯")
         if len(loop_stacks) > max_loop_stack_depth:
             max_loop_stack_depth = len(loop_stacks)
 
