@@ -8,4 +8,5 @@ author = "Anthony Shaw"
 author-email = "anthonyshaw@apache.org"
 home-page = "https://github.com/tonybaloney/notations"
 classifiers = ["License :: OSI Approved :: Apache Software License"]
+description-file = "README.md"
 
