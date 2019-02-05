@@ -30,3 +30,4 @@ This is a rough sketch of a concept at this stage.
 - `while` operators
 - Look at the relationship between input arguments in a function, just because a loop is nested, doesn't mean the `O(n_n)` is correct
 - branches inside loops
+- test comprehensions
