@@ -43,3 +43,13 @@ This is a rough sketch of a concept at this stage.
 
 * [Paper on asymptotic heirarchy](https://www.d.umn.edu/~ddunham/cs3512s10/notes/l12.pdf)
 * [Notes on theta, O and omega functions](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
+
+## Changes
+
+### 0.2.0 
+
+* Change to theta values for __repr__
+
+### 0.1.0
+
+* Initial prototype supporting basic for loops
