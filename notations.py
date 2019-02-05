@@ -26,7 +26,7 @@ class NOTATION_TYPES(enum.IntEnum):
     O_n_power_2 = 2
     O_n_power_n = 3
 
-    def __repr__(self):
+    def __str__(self):
         return NOTATION_REPR[self]
 
 
