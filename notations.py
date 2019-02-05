@@ -31,16 +31,16 @@ class NOTATION_TYPES(enum.IntEnum):
 
 
 NOTATION_REPR = {
-    0: 'O(1)',
-    1: 'O(n)',
-    2: 'O(n^2)',
-    3: 'O(n^n)',
+    0: 'Θ(1)',
+    1: 'Θ(n)',
+    2: 'Θ(n^2)',
+    3: 'Θ(n^n)',
 }
 
 
 def notation(func, debug=False):
     """
-    Get the Big-O notation for a Python code object.
+    Get the asymptotic notation for a Python code object.
 
     :param func: The code object to analyse
     :type  func: ``types.CodeType``
@@ -48,7 +48,7 @@ def notation(func, debug=False):
     :param debug: Show debug information
     :type  debug: ``bool``
 
-    :return: Return the O-notation for a given code object
+    :return: Return the notation for a given code object
     :rtype: :class:`NOTATION_TYPES`
     """
     if debug:

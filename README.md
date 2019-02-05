@@ -1,6 +1,6 @@
 # Notations
 
-Statically estimate "Big-O" notations for a given Python function.
+Statically estimate [asymptotic notation](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/) for a given Python function by looking at the level of loop-nesting inside the function.
 
 **this is an early prototype**
 
@@ -21,7 +21,9 @@ def my_example_function(arg1, arg2):
 print(notation(my_example_function))
 ```
 
-Will print `O(n^2)`
+Will print `Θ(n^2)`
+
+See `test_notations.py` for more examples.
 
 ## TODO
 
@@ -40,3 +42,4 @@ This is a rough sketch of a concept at this stage.
 ## Research notes
 
 * [Paper on asymptotic heirarchy](https://www.d.umn.edu/~ddunham/cs3512s10/notes/l12.pdf)
+* [Notes on theta, O and omega functions](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
