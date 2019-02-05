@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "notations"
+author = "Anthony Shaw"
+author-email = "anthonyshaw@apache.org"
+home-page = "https://github.com/tonybaloney/notations"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+
