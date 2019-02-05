@@ -36,3 +36,7 @@ This is a rough sketch of a concept at this stage.
 
 * **Why not use the AST?** The AST cannot be built at runtime (easily) from a code object, this library is intended to be used to evaluate the execution-order of a compiled function. 
 * **How could you possibly calculate the order without running the code?** This function equates the order by looking at the level of loop-nesting in a function, the use of comprehensions and the relationships between arguments. Dynamic runtime benchmarks are susceptible to environmental conditions (noisy neighbours) and there are already plenty of tools out there that do this
+
+## Research notes
+
+* [Paper on asymptotic heirarchy](https://www.d.umn.edu/~ddunham/cs3512s10/notes/l12.pdf)
