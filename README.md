@@ -2,6 +2,8 @@
 
 Statically estimate "Big-O" notations for a given Python function.
 
+**this is an early prototype**
+
 ## Example
 
 ```python
