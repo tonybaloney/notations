@@ -31,3 +31,8 @@ This is a rough sketch of a concept at this stage.
 - Look at the relationship between input arguments in a function, just because a loop is nested, doesn't mean the `O(n_n)` is correct
 - branches inside loops
 - test comprehensions
+
+## FAQ
+
+* **Why not use the AST?** The AST cannot be built at runtime (easily) from a code object, this library is intended to be used to evaluate the execution-order of a compiled function. 
+* **How could you possibly calculate the order without running the code?** This function equates the order by looking at the level of loop-nesting in a function, the use of comprehensions and the relationships between arguments. Dynamic runtime benchmarks are susceptible to environmental conditions (noisy neighbours) and there are already plenty of tools out there that do this
